@@ -47,7 +47,11 @@ public class Main {
         var differenceWeight = (weightSecondBoxer - weightFirstBoxer);
         System.out.println("Разница в массе бойцов " + differenceWeight + " кг.");
 
-
+        //task 7
+        var differenceWeight1 = differenceWeight;
+        var differenceWeight2 = (weightSecondBoxer % weightFirstBoxer);
+        System.out.println("Разница в массе бойцов " + differenceWeight1 + " кг. (Первый способ)");
+        System.out.println("Разница в массе бойцов " + differenceWeight2 + " кг. (Второй способ)");
 
 
 
