@@ -22,7 +22,7 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
 
-        // task 4 - 6
+        // task 4 - 5
         var friend = 19;
         System.out.println(friend);
         friend = friend + 2;
