@@ -39,6 +39,5 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
-
     }
 }
