@@ -48,9 +48,8 @@ public class Main {
         System.out.println("Разница в массе бойцов " + differenceWeight + " кг.");
 
         //task 7
-        var differenceWeight1 = differenceWeight;
         var differenceWeight2 = (weightSecondBoxer % weightFirstBoxer);
-        System.out.println("Разница в массе бойцов " + differenceWeight1 + " кг. (Первый способ)");
+        System.out.println("Разница в массе бойцов " + differenceWeight + " кг. (Первый способ)");
         System.out.println("Разница в массе бойцов " + differenceWeight2 + " кг. (Второй способ)");
 
         //task 8
@@ -64,7 +63,7 @@ public class Main {
         var totalHoursPart2 = (totalEmplPart2 * workDay);
 
         System.out.println("Если в компании работает " + totalEmplPart2 + " человек, то всего "
-                + totalHoursPart2 + " часов работы может быть поделено между сотрудниками");
+                + totalHoursPart2 + " часов работы может быть поделено между сотрудниками.");
 
 
 
